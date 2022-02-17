@@ -19,6 +19,8 @@ module.exports = () => {
 		// 需要更多頁面時可以新增
 		entry: {
 			index: './src/index.js',
+			how: './src/how.js',
+			online: './src/online.js',
 		},
 
 		module: {

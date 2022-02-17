@@ -1,32 +1,27 @@
 import { useEffect } from 'react';
+import '../Index/main.less';
 import '../Setting/styles.css';
-import imageA from './img/a.png';
-import imageB from './img/b.png';
-import './main.less';
 
-const links = [
+const way = [
 	{
-		name: 'fit window mode',
-		image: imageA,
-		url: 'https://app.postdrop.io/share/4X7NOYVQHOu0jAnpC538cYADLSduiJADC8nU',
+		name: 'outlook 桌面版',
+		url: 'https://tsengseal.medium.com/%E7%B4%80%E9%8C%84-%E7%94%A8-outlook-%E5%81%9A-edm-%E7%9A%84%E5%BE%AE%E5%88%B6%E9%9C%B8%E6%94%BB%E7%95%A5-92fb4ff71d37',
 	},
 	{
-		name: '640px width mode',
-		image: imageB,
-		url: 'https://app.postdrop.io/share/wJKdmfCCBtFgJuA9_9NOsu-nU83-nGz-m3Rx',
+		name: 'outLook 線上版',
+		url: './online.html',
 	},
 ];
 
-const Index = () => {
+const How = () => {
 	useEffect(() => {}, []);
 	return (
-		<div className='Index'>
-			{links.map((e) => {
-				const { name, url, image } = e;
+		<div className='How'>
+			{way.map((e) => {
+				const { name, url } = e;
 				return (
 					<div key={name}>
 						<h1>{name}</h1>
-						<img src={image} alt='' />
 						<button
 							type='button'
 							className='bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center'
@@ -41,19 +36,12 @@ const Index = () => {
 							>
 								<path d='M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z' />
 							</svg>
-							<span>Template</span>
+							<span>Read me</span>
 						</button>
 					</div>
 				);
 			})}
-			<div className='how'>
-				<h1>
-					<a href='./how.html' target='_blank'>
-						如何發信?
-					</a>
-				</h1>
-			</div>
 		</div>
 	);
 };
-export default Index;
+export default How;

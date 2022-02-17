@@ -1,5 +1,5 @@
 module.exports = {
-	title: '---',
-	description: '---',
+	title: 'volkswagen EDM template',
+	description: '',
 	url: 'https://jameshsu1125.github.io/',
 };
