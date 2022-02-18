@@ -6,12 +6,12 @@ import './main.less';
 
 const links = [
 	{
-		name: 'fixed size mode. (標準版)',
+		name: 'template document (標準文件)',
 		image: imageB,
 		url: 'https://app.postdrop.io/share/wJKdmfCCBtFgJuA9_9NOsu-nU83-nGz-m3Rx',
 	},
 	{
-		name: 'fluid size mode. (滿版)',
+		name: 'empty document(空白文件)',
 		image: imageA,
 		url: 'https://app.postdrop.io/share/4X7NOYVQHOu0jAnpC538cYADLSduiJADC8nU',
 	},
