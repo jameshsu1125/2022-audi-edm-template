@@ -6,14 +6,14 @@ import './main.less';
 
 const links = [
 	{
-		name: 'fit window mode',
-		image: imageA,
-		url: 'https://app.postdrop.io/share/4X7NOYVQHOu0jAnpC538cYADLSduiJADC8nU',
-	},
-	{
-		name: '640px width mode',
+		name: 'fixed size mode. (標準版)',
 		image: imageB,
 		url: 'https://app.postdrop.io/share/wJKdmfCCBtFgJuA9_9NOsu-nU83-nGz-m3Rx',
+	},
+	{
+		name: 'fluid size mode. (滿版)',
+		image: imageA,
+		url: 'https://app.postdrop.io/share/4X7NOYVQHOu0jAnpC538cYADLSduiJADC8nU',
 	},
 ];
 
